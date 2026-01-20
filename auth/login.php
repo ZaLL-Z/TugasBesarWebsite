@@ -27,8 +27,8 @@ $error = $_GET['error'] ?? '';
         <?php endif; ?>
 
         <form method="post" action="../process/login_process.php">
-            <label>Username</label>
-            <input type="text" name="username" required>
+            <label>Email</label>
+            <input type="email" name="email" required>
 
             <label>Password</label>
             <input type="password" name="password" required>
